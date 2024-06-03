@@ -52,7 +52,7 @@ spring:
             client-secret: Qka8wUwAl8vxrfqVSsolSeXHBTxRnwFa
             authorization-grant-type: authorization_code
             scope: openid
-            redirect-uri: https://ms-gateway-production.up.railway.app/login/oauth2/code/keycloak
+            redirect-uri: https://ms-gateway-production-24dd.up.railway.app/login/oauth2/code/keycloak
 
 ## We enable the Actuator API to be able to access <<host>>/actuator/gateway/routes
 ## We expose the routings that have been automatically detected (all)
